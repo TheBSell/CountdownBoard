@@ -22,7 +22,7 @@ namespace CountdownBoard
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string file = "C:\\Users\\bryan\\Documents\\GitHub\\CountdownBoard\\CountdownBoard\\Resources\\Clock.mp4";
+            string file = "Resources\\Clock.mp4";
             axWindowsMediaPlayer1.URL = file;
         }
     }
