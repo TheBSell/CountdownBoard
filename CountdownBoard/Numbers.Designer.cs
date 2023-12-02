@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Numbers));
             this.targetBox = new System.Windows.Forms.TextBox();
             this.btn_lg = new System.Windows.Forms.Button();
             this.btn_sm = new System.Windows.Forms.Button();
@@ -54,7 +55,7 @@
             this.targetBox.Font = new System.Drawing.Font("Futura-Bold", 71.99999F, System.Drawing.FontStyle.Bold);
             this.targetBox.ForeColor = System.Drawing.Color.White;
             this.targetBox.Location = new System.Drawing.Point(181, 10);
-            this.targetBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.targetBox.Margin = new System.Windows.Forms.Padding(2);
             this.targetBox.Name = "targetBox";
             this.targetBox.ReadOnly = true;
             this.targetBox.Size = new System.Drawing.Size(265, 136);
@@ -68,7 +69,7 @@
             this.btn_lg.Font = new System.Drawing.Font("Futura-Bold", 30F, System.Drawing.FontStyle.Bold);
             this.btn_lg.ForeColor = System.Drawing.Color.White;
             this.btn_lg.Location = new System.Drawing.Point(9, 262);
-            this.btn_lg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_lg.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lg.Name = "btn_lg";
             this.btn_lg.Size = new System.Drawing.Size(302, 104);
             this.btn_lg.TabIndex = 28;
@@ -82,7 +83,7 @@
             this.btn_sm.Font = new System.Drawing.Font("Futura-Bold", 30F, System.Drawing.FontStyle.Bold);
             this.btn_sm.ForeColor = System.Drawing.Color.White;
             this.btn_sm.Location = new System.Drawing.Point(316, 262);
-            this.btn_sm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sm.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sm.Name = "btn_sm";
             this.btn_sm.Size = new System.Drawing.Size(302, 104);
             this.btn_sm.TabIndex = 29;
@@ -96,7 +97,7 @@
             this.btn_target.Font = new System.Drawing.Font("Futura-Bold", 15F, System.Drawing.FontStyle.Bold);
             this.btn_target.ForeColor = System.Drawing.Color.White;
             this.btn_target.Location = new System.Drawing.Point(9, 10);
-            this.btn_target.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_target.Margin = new System.Windows.Forms.Padding(2);
             this.btn_target.Name = "btn_target";
             this.btn_target.Size = new System.Drawing.Size(160, 136);
             this.btn_target.TabIndex = 30;
@@ -110,7 +111,7 @@
             this.btn_quit.Font = new System.Drawing.Font("Futura-Bold", 15F, System.Drawing.FontStyle.Bold);
             this.btn_quit.ForeColor = System.Drawing.Color.White;
             this.btn_quit.Location = new System.Drawing.Point(458, 10);
-            this.btn_quit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_quit.Margin = new System.Windows.Forms.Padding(2);
             this.btn_quit.Name = "btn_quit";
             this.btn_quit.Size = new System.Drawing.Size(160, 136);
             this.btn_quit.TabIndex = 31;
@@ -122,7 +123,7 @@
             // 
             this.pb6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(147)))), ((int)(((byte)(226)))));
             this.pb6.Location = new System.Drawing.Point(520, 151);
-            this.pb6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb6.Margin = new System.Windows.Forms.Padding(2);
             this.pb6.Name = "pb6";
             this.pb6.Size = new System.Drawing.Size(98, 106);
             this.pb6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -133,7 +134,7 @@
             // 
             this.pb5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(147)))), ((int)(((byte)(226)))));
             this.pb5.Location = new System.Drawing.Point(418, 151);
-            this.pb5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb5.Margin = new System.Windows.Forms.Padding(2);
             this.pb5.Name = "pb5";
             this.pb5.Size = new System.Drawing.Size(98, 106);
             this.pb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -144,7 +145,7 @@
             // 
             this.pb4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(147)))), ((int)(((byte)(226)))));
             this.pb4.Location = new System.Drawing.Point(316, 151);
-            this.pb4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb4.Margin = new System.Windows.Forms.Padding(2);
             this.pb4.Name = "pb4";
             this.pb4.Size = new System.Drawing.Size(98, 106);
             this.pb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -155,7 +156,7 @@
             // 
             this.pb3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(147)))), ((int)(((byte)(226)))));
             this.pb3.Location = new System.Drawing.Point(214, 151);
-            this.pb3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb3.Margin = new System.Windows.Forms.Padding(2);
             this.pb3.Name = "pb3";
             this.pb3.Size = new System.Drawing.Size(98, 106);
             this.pb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -166,7 +167,7 @@
             // 
             this.pb2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(147)))), ((int)(((byte)(226)))));
             this.pb2.Location = new System.Drawing.Point(112, 151);
-            this.pb2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb2.Margin = new System.Windows.Forms.Padding(2);
             this.pb2.Name = "pb2";
             this.pb2.Size = new System.Drawing.Size(98, 106);
             this.pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -177,7 +178,7 @@
             // 
             this.pb1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(147)))), ((int)(((byte)(226)))));
             this.pb1.Location = new System.Drawing.Point(10, 151);
-            this.pb1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pb1.Margin = new System.Windows.Forms.Padding(2);
             this.pb1.Name = "pb1";
             this.pb1.Size = new System.Drawing.Size(98, 106);
             this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -200,7 +201,8 @@
             this.Controls.Add(this.pb3);
             this.Controls.Add(this.pb2);
             this.Controls.Add(this.pb1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Numbers";
             this.Text = "Numbers";

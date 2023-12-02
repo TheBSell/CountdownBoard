@@ -21,9 +21,9 @@ namespace CountdownBoard
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             string file = "Resources\\Clock.mp4";
             axWindowsMediaPlayer1.URL = file;
+            
         }
     }
 }

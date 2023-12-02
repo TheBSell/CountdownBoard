@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>countdown_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -331,6 +334,16 @@
     <EmbeddedResource Include="Resources\Clock.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\countdown_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\countdown_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="countdown_icon.ico" />
+    <None Include="Resources\countdown_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

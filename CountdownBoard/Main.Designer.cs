@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -55,7 +56,7 @@
             // 
             this.pictureBox9.Image = global::CountdownBoard.Properties.Resources.N;
             this.pictureBox9.Location = new System.Drawing.Point(825, 10);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(98, 106);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -66,7 +67,7 @@
             // 
             this.pictureBox8.Image = global::CountdownBoard.Properties.Resources.W;
             this.pictureBox8.Location = new System.Drawing.Point(723, 10);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(98, 106);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -77,7 +78,7 @@
             // 
             this.pictureBox7.Image = global::CountdownBoard.Properties.Resources.O;
             this.pictureBox7.Location = new System.Drawing.Point(621, 10);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(98, 106);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -88,7 +89,7 @@
             // 
             this.pictureBox6.Image = global::CountdownBoard.Properties.Resources.D;
             this.pictureBox6.Location = new System.Drawing.Point(519, 10);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(98, 106);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -99,7 +100,7 @@
             // 
             this.pictureBox5.Image = global::CountdownBoard.Properties.Resources.T;
             this.pictureBox5.Location = new System.Drawing.Point(417, 10);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(98, 106);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -110,7 +111,7 @@
             // 
             this.pictureBox4.Image = global::CountdownBoard.Properties.Resources.N;
             this.pictureBox4.Location = new System.Drawing.Point(315, 10);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(98, 106);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -121,7 +122,7 @@
             // 
             this.pictureBox3.Image = global::CountdownBoard.Properties.Resources.U;
             this.pictureBox3.Location = new System.Drawing.Point(213, 10);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(98, 106);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -132,7 +133,7 @@
             // 
             this.pictureBox2.Image = global::CountdownBoard.Properties.Resources.O;
             this.pictureBox2.Location = new System.Drawing.Point(111, 10);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(98, 106);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -143,7 +144,7 @@
             // 
             this.pictureBox1.Image = global::CountdownBoard.Properties.Resources.C;
             this.pictureBox1.Location = new System.Drawing.Point(9, 10);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(98, 106);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -156,7 +157,7 @@
             this.btn_Letters.Font = new System.Drawing.Font("Futura-Bold", 36F, System.Drawing.FontStyle.Bold);
             this.btn_Letters.ForeColor = System.Drawing.Color.White;
             this.btn_Letters.Location = new System.Drawing.Point(9, 120);
-            this.btn_Letters.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Letters.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Letters.Name = "btn_Letters";
             this.btn_Letters.Size = new System.Drawing.Size(302, 104);
             this.btn_Letters.TabIndex = 9;
@@ -170,7 +171,7 @@
             this.btn_Numbers.Font = new System.Drawing.Font("Futura-Bold", 36F, System.Drawing.FontStyle.Bold);
             this.btn_Numbers.ForeColor = System.Drawing.Color.White;
             this.btn_Numbers.Location = new System.Drawing.Point(619, 120);
-            this.btn_Numbers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Numbers.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Numbers.Name = "btn_Numbers";
             this.btn_Numbers.Size = new System.Drawing.Size(302, 104);
             this.btn_Numbers.TabIndex = 10;
@@ -209,7 +210,8 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Main";
             this.Text = "Countdown";
